@@ -14,11 +14,20 @@ export default function Submit() {
 /**
  * Responde a 4 de las siguientes preguntas:
  * ¿Qué sucede si intentamos enviar el formulario dos veces rápidamente?
+ * - Que se guarde los datos duplicados en la base de datos, pero con el estado de pending se puede prevenir
+ * 
  * ¿Se deshabilita el botón correctamente?
  * ¿Cómo afecta esto a la experiencia del usuario?
+ * 
  * ¿Cómo podríamos mejorar el feedback visual durante el envío?
+ * - Mostrar un mensaje que diga que se ha enviado o no
+ * 
  * ¿Podemos agregar animaciones o estilos adicionales?
+ * - Sí, podemos agregar animacion y estilos personalizados usando iconos animados
+ * 
  * ¿Qué otros estados podríamos mostrar además de "Submitting..."?
+ * - Podemos mostrar un icono de carga
+ * 
  * ¿Qué sucede con el estado pending después de que el formulario se envía?
  * ¿Se restaura automáticamente a false?
  * ¿Necesitamos limpiar el estado manualmente?
